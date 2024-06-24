@@ -1,9 +1,106 @@
-<mxfile host="app.diagrams.net" modified="2024-06-24T15:15:02.728Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.2" etag="YKeh87dSL6gy0Mne0kMk" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-24T15:48:41.771Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="SH_tVcGMHiDv84VO-QB1" version="24.6.2" type="github">
   <diagram name="Page-1" id="o2Djaw4tXAp-cVg-NDTE">
-    <mxGraphModel>
+    <mxGraphModel dx="819" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JB5IcmVs7LlhindQv720-1" value="Vol de données de géolocalisation" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=10;fillColor=#fff2cc;align=center;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JB5IcmVs7LlhindQv720-4" value="1. en transit (4)" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=10;fillColor=#fff2cc;align=center;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JB5IcmVs7LlhindQv720-5" value="2. au repos" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=10;fillColor=#fff2cc;align=center;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="105.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JB5IcmVs7LlhindQv720-6" value="3. durant le traitement" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=10;fillColor=#fff2cc;align=center;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="105.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JB5IcmVs7LlhindQv720-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JB5IcmVs7LlhindQv720-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="130" as="sourcePoint" />
+            <mxPoint x="60" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JB5IcmVs7LlhindQv720-9" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JB5IcmVs7LlhindQv720-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="130" as="sourcePoint" />
+            <mxPoint x="60" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JB5IcmVs7LlhindQv720-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JB5IcmVs7LlhindQv720-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="170" as="sourcePoint" />
+            <mxPoint x="60" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="410" />
+              <mxPoint x="60" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JB5IcmVs7LlhindQv720-12" value="ET" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=10;fillColor=#ffe6cc;align=center;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JB5IcmVs7LlhindQv720-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.273;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="JB5IcmVs7LlhindQv720-12" target="JB5IcmVs7LlhindQv720-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135" y="120" as="sourcePoint" />
+            <mxPoint x="135" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JB5IcmVs7LlhindQv720-15" value="Intercepter Trame GPS (2)" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=10;fillColor=#fff2cc;align=center;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="140" y="160" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JB5IcmVs7LlhindQv720-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JB5IcmVs7LlhindQv720-15" target="JB5IcmVs7LlhindQv720-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="250" as="sourcePoint" />
+            <mxPoint x="-30" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JB5IcmVs7LlhindQv720-17" value="Obtenir clé déchiffrement (4)" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=10;fillColor=#fff2cc;align=center;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JB5IcmVs7LlhindQv720-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="JB5IcmVs7LlhindQv720-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="140" as="sourcePoint" />
+            <mxPoint x="-30" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JB5IcmVs7LlhindQv720-19" value="Infiltrer la base de données" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=10;fillColor=#fff2cc;align=center;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="140" y="290" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JB5IcmVs7LlhindQv720-20" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.284;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JB5IcmVs7LlhindQv720-19" target="JB5IcmVs7LlhindQv720-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="250" as="sourcePoint" />
+            <mxPoint x="110" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JB5IcmVs7LlhindQv720-21" value="Accéder au serveur d&#39;écoute" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=10;fillColor=#fff2cc;align=center;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="140" y="440" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JB5IcmVs7LlhindQv720-22" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JB5IcmVs7LlhindQv720-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="430" as="sourcePoint" />
+            <mxPoint x="110" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
